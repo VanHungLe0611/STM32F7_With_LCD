@@ -96,6 +96,10 @@ void Error_Handler(void);
 #define LORA_DIO4_GPIO_Port GPIOB
 #define LORA_DIO0_Pin GPIO_PIN_2
 #define LORA_DIO0_GPIO_Port GPIOB
+#define CS_Pin GPIO_PIN_11
+#define CS_GPIO_Port GPIOF
+#define RST_Pin GPIO_PIN_12
+#define RST_GPIO_Port GPIOF
 #define LORA_DIO1_Pin GPIO_PIN_10
 #define LORA_DIO1_GPIO_Port GPIOB
 #define LORA_DIO2_Pin GPIO_PIN_11
@@ -110,10 +114,6 @@ void Error_Handler(void);
 #define GPIO3_GPIO_Port GPIOC
 #define EN_LORA_Pin GPIO_PIN_8
 #define EN_LORA_GPIO_Port GPIOA
-#define RST_Pin GPIO_PIN_6
-#define RST_GPIO_Port GPIOB
-#define CS_Pin GPIO_PIN_9
-#define CS_GPIO_Port GPIOB
 #define TDIN_Pin GPIO_PIN_0
 #define TDIN_GPIO_Port GPIOE
 #define TDO_Pin GPIO_PIN_1

@@ -100,6 +100,26 @@
         "file": "Drivers\\STM32F7xx_HAL_Driver\\Src\\stm32f7xx_hal_uart_ex.c"
     },
     {
+        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\RTT\\SEGGER_RTT.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\RTT\\SEGGER_RTT.c",
+        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
+        "file": "SEGGER\\RTT\\SEGGER_RTT.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\RTT\\SEGGER_RTT_printf.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\RTT\\SEGGER_RTT_printf.c",
+        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
+        "file": "SEGGER\\RTT\\SEGGER_RTT_printf.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\HardFault\\SEGGER_HardFault_Handler.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\HardFault\\SEGGER_HardFault_Handler.c",
+        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
+        "file": "SEGGER\\HardFault\\SEGGER_HardFault_Handler.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -o build\\debug\\Src\\LCDConfigure.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT Src\\LCDConfigure.c",
+        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
+        "file": "Src\\LCDConfigure.c"
+    },
+    {
         "command": "arm-none-eabi-gcc -o build\\debug\\Src\\main.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT Src\\main.c",
         "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
         "file": "Src\\main.c"
@@ -118,20 +138,5 @@
         "command": "arm-none-eabi-gcc -o build\\debug\\Src\\system_stm32f7xx.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT Src\\system_stm32f7xx.c",
         "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
         "file": "Src\\system_stm32f7xx.c"
-    },
-    {
-        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\RTT\\SEGGER_RTT.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\RTT\\SEGGER_RTT.c",
-        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
-        "file": "SEGGER\\RTT\\SEGGER_RTT.c"
-    },
-    {
-        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\RTT\\SEGGER_RTT_printf.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\RTT\\SEGGER_RTT_printf.c",
-        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
-        "file": "SEGGER\\RTT\\SEGGER_RTT_printf.c"
-    },
-    {
-        "command": "arm-none-eabi-gcc -o build\\debug\\SEGGER\\HardFault\\SEGGER_HardFault_Handler.o -c -std=gnu11 -g3 -mcpu=cortex-m4 -mthumb -O0 -mno-unaligned-access -fno-move-loop-invariants -fsigned-char -ffunction-sections -fdata-sections -fmessage-length=0 -mfpu=fpv5-sp-d16 -mfloat-abi=softfp -w -Wextra -DDEBUG -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DTRACE -DUSE_HAL_DRIVER -DSTM32F767xx -DHSE_VALUE=8000000 -DUSE_FULL_LL_DRIVER -IDrivers\\CMSIS\\Include -IDrivers\\CMSIS\\Device\\ST\\STM32F7xx\\Include -IDrivers\\STM32F7xx_HAL_Driver\\Inc -IDrivers\\STM32F7xx_HAL_Driver\\Inc\\Legacy -IInc -ISEGGER\\RTT SEGGER\\HardFault\\SEGGER_HardFault_Handler.c",
-        "directory": "E:\\LoraWan\\LoraLCD\\STM32F7_LCD\\LoraLCD",
-        "file": "SEGGER\\HardFault\\SEGGER_HardFault_Handler.c"
     }
 ]
